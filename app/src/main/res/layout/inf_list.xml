@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/inf_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_baseline_inficon_in_24" />
+
+    <TextView
+        android:textColor="#FFF"
+        android:id="@+id/inf_title"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="30dp"
+        android:textSize="30dp"
+        android:text="信息标题"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:textColor="#FFF"
+        android:gravity="center_vertical"
+        android:id="@+id/inf_content"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textSize="25dp"
+        android:text="信息内容"
+        />
+    <TextView
+        android:id="@+id/inf_time"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:textColor="#FFF"
+        android:textSize="15dp"
+        android:text="time"/>
+    </LinearLayout>
+
+</LinearLayout>
